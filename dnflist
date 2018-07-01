@@ -1,0 +1,5 @@
+libxml2-devel
+libxslt-devel
+openldap-devel
+postgresql-server
+npm
