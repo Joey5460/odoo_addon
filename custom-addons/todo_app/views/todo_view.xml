@@ -5,6 +5,13 @@
         <field name="name">To-do Task Form</field>
         <field name="model">todo.task</field>
         <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <filter string="Not Done"
+                    domain="[('is_done','=',False)]"/>
+                <filter string="Done"
+                    domain="[('is_done','!=',False)]"/>
+            </search>
             <form string="To-do Task">
                 <header>
                     <button name="do_toggle_done" type="object"
@@ -15,15 +22,17 @@
                 <sheet>
                     <group name="group_top">
                         <group name="group_left">
-                            <field name="name"/>
+                            <tree colors="decoration-muted:is_done==True">
+                                <field name="name"/>
+                            </tree>
                         </group>
                         <group name="group_right">
                             <field name="is_done"/>
                             <field name="active" readonly="1"/>
                         </group>
                     </group>
-            </sheet>
-        </form>
-    </field>
-</record>
+                </sheet>
+            </form>
+        </field>
+    </record>
 </odoo>
