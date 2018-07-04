@@ -3,7 +3,21 @@ from odoo import models, fields, api
 class TodoTask (models.Model):
     _name = 'todo.task'
     _description = 'To-do Task'
-    name = fields.Char('Description', required=True) 
+    name = fields.Char('Name', required=True) 
+    num = fields.Char('Number')
+    scale = fields.Char('Scale')
+    acc = fields.Char('Accurate')
+    manu = fields.Char('Manufacture')
+    lev_time = fields.Char('Leverage Time')
+    det_peri= fields.Char('Detection Period')
+    exp = fields.Char('Expiration')
+    dep = fields.Char('Department')
+    user = fields.Char('User')
+    comment = fields.Text('comment')
+    dt= fields.Date('Date')
+    det_no= fields.Integer('Detection No.')
+    result= fields.Boolean('Result')
+    issue_dep= fields.Boolean('Issue Dep')
     is_done = fields.Boolean('Done?')
     active = fields.Boolean('Active?', default=True)
 
