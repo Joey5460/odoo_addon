@@ -5,3 +5,5 @@ run:
 test:
 	./odoo/odoo-bin -d todo --addons-path="custom-addons,odoo/addons" -i todo_app --test-enable 
 
+init:
+	./odoo/odoo-bin
