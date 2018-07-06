@@ -6,10 +6,12 @@
         <field name="arch" type="xml">
             <form string="To-do Task">
                 <header>
+                    <!--
                     <button name="do_toggle_done" type="object"
                         string="Toggle Done" class="oe_highlight"/>
                     <button name="do_clear_done" type="object" 
                         string="Clear All Done"/>
+                    -->
                 </header>
                 <sheet>
                     <group name="group_top">
@@ -24,11 +26,14 @@
                                 <field  name="manu"/>
                                 <field  name="lev_time"/>
                                 <field  name="det_peri"/>
-                                <field  name="dep"/>
                                 <field  name="dt"/>
+                                <field  name="user"/>
+                                <field  name="comment"/>
+                                <field  name="dt"/>
+                                <field  name="det_no"/>
                                 <field  name="result"/>
                                 <field  name="issue_dep"/>
-                            <!--
+                                <!--
                             <field name="is_done"/>
                             <field name="active" readonly="1"/>
                             -->
@@ -54,7 +59,10 @@
                 <field  name="det_peri"/>
                 <field  name="exp"/>
                 <field  name="dep"/>
+                <field  name="user"/>
+                <field  name="comment"/>
                 <field  name="dt"/>
+                <field  name="det_no"/>
                 <field  name="result"/>
                 <field  name="issue_dep"/>
             </tree>
