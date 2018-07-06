@@ -1,0 +1,139 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* todo_app
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-06 08:24+0000\n"
+"PO-Revision-Date: 2018-07-06 08:24+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_acc
+msgid "Accurate"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_comment
+msgid "Comment"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_dt
+msgid "Date"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_dep
+msgid "Department"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_det_no
+msgid "Detection No."
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_det_peri
+msgid "Detection Period"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_exp
+msgid "Expiration"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_id
+msgid "ID"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_issue_dep
+msgid "Issue Dep"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_lev_time
+msgid "Leverage Time"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_manu
+msgid "Manufacture"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_name
+msgid "Name"
+msgstr "名称"
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_num
+msgid "Number"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_result
+msgid "Result"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_scale
+msgid "Scale"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.actions.act_window,name:todo_app.action_todo_task
+#: model:ir.model,name:todo_app.model_todo_task
+#: model:ir.ui.view,arch_db:todo_app.view_form_todo_task
+msgid "To-do Task"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.ui.menu,name:todo_app.menu_todo_task
+msgid "Todos"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_user
+msgid "User"
+msgstr ""
+

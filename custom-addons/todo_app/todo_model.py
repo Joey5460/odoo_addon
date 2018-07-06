@@ -3,7 +3,7 @@ from odoo import models, fields, api
 class TodoTask (models.Model):
     _name = 'todo.task'
     _description = 'To-do Task'
-    name = fields.Char('Name', required=True) 
+    name = fields.Char('Name', required=True, translate=True) 
     num = fields.Char('Number', required=True)
     scale = fields.Char('Scale')
     acc = fields.Char('Accurate')
