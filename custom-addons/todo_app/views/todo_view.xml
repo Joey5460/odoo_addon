@@ -1,17 +1,9 @@
 <?xml version="1.0"?>
 <odoo>
-    <record id="view_form_todo_task" 
-        model="ir.ui.view">
+    <record id="view_form_todo_task" model="ir.ui.view">
         <field name="name">To-do Task Form</field>
         <field name="model">todo.task</field>
         <field name="arch" type="xml">
-            <search>
-                <field name="name"/>
-                <filter string="Not Done"
-                    domain="[('is_done','=',False)]"/>
-                <filter string="Done"
-                    domain="[('is_done','!=',False)]"/>
-            </search>
             <form string="To-do Task">
                 <header>
                     <button name="do_toggle_done" type="object"
@@ -22,17 +14,50 @@
                 <sheet>
                     <group name="group_top">
                         <group name="group_left">
-                            <tree colors="decoration-muted:is_done==True">
-                                <field name="name"/>
-                            </tree>
+                                <field  name="name"/>
+                                <field  name="num"/>
+                                <field  name="exp"/>
                         </group>
                         <group name="group_right">
+                                <field  name="scale"/>
+                                <field  name="acc"/>
+                                <field  name="manu"/>
+                                <field  name="lev_time"/>
+                                <field  name="det_peri"/>
+                                <field  name="dep"/>
+                                <field  name="dt"/>
+                                <field  name="result"/>
+                                <field  name="issue_dep"/>
+                            <!--
                             <field name="is_done"/>
                             <field name="active" readonly="1"/>
+                            -->
                         </group>
                     </group>
                 </sheet>
             </form>
+        </field>
+    </record>
+
+    <!-- To-Do Task List view -->
+    <record id="view_tree_todo_task" model="ir.ui.view">
+        <field name="name">To-do Task Tree</field>
+        <field name="model">todo.task</field>
+        <field name="arch" type="xml">
+            <tree colors="decoration-muted: is_done==True">
+                <field name="name"/>
+                <field  name="num"/>
+                <field  name="scale"/>
+                <field  name="acc"/>
+                <field  name="manu"/>
+                <field  name="lev_time"/>
+                <field  name="det_peri"/>
+                <field  name="exp"/>
+                <field  name="dep"/>
+                <field  name="dt"/>
+                <field  name="result"/>
+                <field  name="issue_dep"/>
+            </tree>
         </field>
     </record>
 </odoo>
