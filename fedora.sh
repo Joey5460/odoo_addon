@@ -1,4 +1,4 @@
-dnf.sh
+sudo dnf install $(cat dnflist)
 sudo postgresql-setup --initdb --unit postgresql
 sudo systemctl enable postgresql
 sudo systemctl start postgresql

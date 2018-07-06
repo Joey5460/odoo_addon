@@ -3,3 +3,7 @@ libxslt-devel
 openldap-devel
 postgresql-server
 npm
+gcc
+redhat-rpm-config
+python3-devel
+make
