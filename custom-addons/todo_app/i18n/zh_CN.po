@@ -28,7 +28,7 @@ msgstr "标定日期"
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_comment
 msgid "Comment"
-msgstr ""
+msgstr "备注"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_measure_task_create_uid
