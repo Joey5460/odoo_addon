@@ -11,5 +11,5 @@ class TodoTask (models.Model):
     dur = fields.Char('Duration',required=True,translate=True)
     exp = fields.Date('Expiration',required=True,translate=True)
     cali = fields.Date('Cali Date',required=True,translate=True)
-    li_num = fields.Date('Licence Number',required=True,translate=True)
+    li_num = fields.Char('Licence Number',required=True,translate=True)
 

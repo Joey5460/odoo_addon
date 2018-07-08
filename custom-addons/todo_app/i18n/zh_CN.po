@@ -23,7 +23,7 @@ msgstr "精度等级"
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_measure_task_cali
 msgid "Cali Date"
-msgstr "标定"
+msgstr "标定日期"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_comment
@@ -50,7 +50,7 @@ msgstr "日期"
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_dep
 msgid "Department"
-msgstr ""
+msgstr "使用部门"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_det_no
@@ -60,7 +60,7 @@ msgstr "检定证号"
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_det_peri
 msgid "Detection Period"
-msgstr ""
+msgstr "检定周期"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_measure_task_display_name
@@ -72,12 +72,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:todo_app.field_measure_task_dur
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_dur
 msgid "Duration"
-msgstr ""
+msgstr "使用期限"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_measure_task_exp
 msgid "Expiration"
-msgstr ""
+msgstr "有效期"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_measure_task_id
@@ -111,22 +111,22 @@ msgstr ""
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_lev_time
 msgid "Leverage Time"
-msgstr ""
+msgstr "使用时间"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_measure_task_li_num
 msgid "Licence Number"
-msgstr ""
+msgstr "证书编号"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_manu
 msgid "Manufacture"
-msgstr ""
+msgstr "制造厂商"
 
 #. module: todo_app
 #: model:ir.ui.menu,name:todo_app.menu_nsk_measure
 msgid "Measure"
-msgstr ""
+msgstr "标件"
 
 #. module: todo_app
 #: model:ir.actions.act_window,name:todo_app.action_measure_task
@@ -139,43 +139,43 @@ msgstr ""
 #: model:ir.model.fields,field_description:todo_app.field_measure_task_name
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_name
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_measure_task_num
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_num
 msgid "Number"
-msgstr ""
+msgstr "计量编号"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_measure_task_p_a
 msgid "PointA"
-msgstr ""
+msgstr "测量点A"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_measure_task_p_b
 msgid "PointB"
-msgstr ""
+msgstr "测量点B"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_measure_task_process
 msgid "Process"
-msgstr ""
+msgstr "使用工序"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_result
 msgid "Result"
-msgstr ""
+msgstr "判定"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_scale
 msgid "Scale"
-msgstr ""
+msgstr "使用范围"
 
 #. module: todo_app
 #: model:ir.ui.menu,name:todo_app.menu_nsk_table
 msgid "Table"
-msgstr ""
+msgstr "表"
 
 #. module: todo_app
 #: model:ir.actions.act_window,name:todo_app.action_todo_task
@@ -187,10 +187,10 @@ msgstr ""
 #. module: todo_app
 #: model:ir.ui.menu,name:todo_app.menu_todo_task
 msgid "Todos"
-msgstr ""
+msgstr "NSK"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_user
 msgid "User"
-msgstr ""
+msgstr "使用人"
 
