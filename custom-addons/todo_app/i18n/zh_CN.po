@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-06 08:24+0000\n"
-"PO-Revision-Date: 2018-07-06 08:24+0000\n"
+"POT-Creation-Date: 2018-07-08 07:11+0000\n"
+"PO-Revision-Date: 2018-07-08 07:11+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,12 @@ msgstr ""
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_acc
 msgid "Accurate"
-msgstr ""
+msgstr "精度等级"
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_measure_task_cali
+msgid "Cali Date"
+msgstr "标定"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_comment
@@ -26,11 +31,13 @@ msgid "Comment"
 msgstr ""
 
 #. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_measure_task_create_uid
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_create_uid
 msgid "Created by"
 msgstr ""
 
 #. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_measure_task_create_date
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_create_date
 msgid "Created on"
 msgstr ""
@@ -38,7 +45,7 @@ msgstr ""
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_dt
 msgid "Date"
-msgstr ""
+msgstr "日期"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_dep
@@ -48,7 +55,7 @@ msgstr ""
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_det_no
 msgid "Detection No."
-msgstr ""
+msgstr "检定证号"
 
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_det_peri
@@ -56,16 +63,24 @@ msgid "Detection Period"
 msgstr ""
 
 #. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_measure_task_display_name
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_display_name
 msgid "Display Name"
 msgstr ""
 
 #. module: todo_app
-#: model:ir.model.fields,field_description:todo_app.field_todo_task_exp
+#: model:ir.model.fields,field_description:todo_app.field_measure_task_dur
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_dur
+msgid "Duration"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_measure_task_exp
 msgid "Expiration"
 msgstr ""
 
 #. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_measure_task_id
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_id
 msgid "ID"
 msgstr ""
@@ -73,19 +88,22 @@ msgstr ""
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_issue_dep
 msgid "Issue Dep"
-msgstr ""
+msgstr "发放部门"
 
 #. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_measure_task___last_update
 #: model:ir.model.fields,field_description:todo_app.field_todo_task___last_update
 msgid "Last Modified on"
 msgstr ""
 
 #. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_measure_task_write_uid
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_write_uid
 msgid "Last Updated by"
 msgstr ""
 
 #. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_measure_task_write_date
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_write_date
 msgid "Last Updated on"
 msgstr ""
@@ -96,18 +114,52 @@ msgid "Leverage Time"
 msgstr ""
 
 #. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_measure_task_li_num
+msgid "Licence Number"
+msgstr ""
+
+#. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_manu
 msgid "Manufacture"
 msgstr ""
 
 #. module: todo_app
-#: model:ir.model.fields,field_description:todo_app.field_todo_task_name
-msgid "Name"
-msgstr "名称"
+#: model:ir.ui.menu,name:todo_app.menu_nsk_measure
+msgid "Measure"
+msgstr ""
 
 #. module: todo_app
+#: model:ir.actions.act_window,name:todo_app.action_measure_task
+#: model:ir.model,name:todo_app.model_measure_task
+#: model:ir.ui.view,arch_db:todo_app.view_form_measure_task
+msgid "Measure Task"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_measure_task_name
+#: model:ir.model.fields,field_description:todo_app.field_todo_task_name
+msgid "Name"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_measure_task_num
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_num
 msgid "Number"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_measure_task_p_a
+msgid "PointA"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_measure_task_p_b
+msgid "PointB"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.model.fields,field_description:todo_app.field_measure_task_process
+msgid "Process"
 msgstr ""
 
 #. module: todo_app
@@ -118,6 +170,11 @@ msgstr ""
 #. module: todo_app
 #: model:ir.model.fields,field_description:todo_app.field_todo_task_scale
 msgid "Scale"
+msgstr ""
+
+#. module: todo_app
+#: model:ir.ui.menu,name:todo_app.menu_nsk_table
+msgid "Table"
 msgstr ""
 
 #. module: todo_app

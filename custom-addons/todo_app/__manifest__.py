@@ -9,5 +9,6 @@
         'security/todo_access_rules.xml',
         'views/todo_menu.xml',
         'views/todo_view.xml',
+        'views/measure_view.xml',
         ],
 }

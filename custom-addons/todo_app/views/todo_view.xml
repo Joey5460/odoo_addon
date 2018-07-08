@@ -18,7 +18,7 @@
                         <group name="group_left">
                                 <field  name="name"/>
                                 <field  name="num"/>
-                                <field  name="exp"/>
+                                <field  name="dur"/>
                         </group>
                         <group name="group_right">
                                 <field  name="scale"/>
@@ -57,7 +57,7 @@
                 <field  name="manu"/>
                 <field  name="lev_time"/>
                 <field  name="det_peri"/>
-                <field  name="exp"/>
+                <field  name="dur"/>
                 <field  name="dep"/>
                 <field  name="user"/>
                 <field  name="comment"/>

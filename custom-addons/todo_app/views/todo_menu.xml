@@ -5,8 +5,18 @@
         name="To-do Task"
         res_model="todo.task"
         view_mode="tree,form"/>
+
+    <act_window id="action_measure_task"
+        name="Measure Task"
+        res_model="measure.task"
+        view_mode="tree,form"/>
+
     <!-- Menu item to open To-do Task list-->
     <menuitem id="menu_todo_task"
         name="Todos"
         action="action_todo_task"/>
+
+    <menuitem id="menu_nsk_table" name="Table" parent="menu_todo_task" groups="base.group_user" action="action_todo_task" sequence="2"/>
+
+    <menuitem id="menu_nsk_measure" name="Measure" parent="menu_todo_task" groups="base.group_user" action="action_measure_task"/>
 </odoo>

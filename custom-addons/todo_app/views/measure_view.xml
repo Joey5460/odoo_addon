@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="view_form_measure_task" model="ir.ui.view">
+        <field name="name">Measure Task Form</field>
+        <field name="model">measure.task</field>
+        <field name="arch" type="xml">
+            <form string="Measure Task">
+                <sheet>
+                    <group name="group_top">
+                        <field  name="name"/>
+                        <field  name="p_a"/>
+                        <field  name="p_b"/>
+                        <field  name="num"/>
+                        <field  name="process"/>
+                        <field  name="dur"/>
+                        <field  name="exp"/>
+                        <field  name="cali"/>
+                        <field  name="li_num"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- To-Do Task List view -->
+    <record id="view_tree_measure_task" model="ir.ui.view">
+        <field name="name">Measure Task Tree</field>
+        <field name="model">measure.task</field>
+        <field name="arch" type="xml">
+            <tree colors="decoration-muted: is_done==True">
+                <field name="name"/>
+                <field  name="p_a"/>
+                <field  name="p_b"/>
+                <field  name="num"/>
+                <field  name="process"/>
+                <field  name="dur"/>
+                <field  name="exp"/>
+                <field  name="cali"/>
+                <field  name="li_num"/>
+            </tree>
+        </field>
+    </record>
+</odoo>
